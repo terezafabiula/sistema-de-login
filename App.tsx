@@ -20,8 +20,7 @@ export default function App() {
 
       //função do botão cadastre-se
     const handleSignUpButton = () => {
-      alert(emailField)
-      alert(passwordField)
+      
       
     }
 
@@ -53,7 +52,7 @@ export default function App() {
           placeholder='**********' 
           placeholderTextColor= 'd1d1d1'
           value={passwordField}
-          onChangeText={t => setEmailField(t)}
+          onChangeText={t => setPasswordField(t)}
           autoCapitalize= 'none'
           secureTextEntry
 
